@@ -1,5 +1,5 @@
 require 'matrix'
-require 'RubyFits'
+#require 'RubyFits'
 class AttachmentFile < ApplicationRecord
   include HasRecordProperty
   has_attached_file :data,
